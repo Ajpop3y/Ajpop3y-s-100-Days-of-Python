@@ -6,8 +6,6 @@ row3 = [" ", " ", " "]
 map = ["row1", "row2", "row3"]
 # print(f"{row1}\n{row2}\n{row3}")
 position = input("Where do you want to put the treasure?\n")
-hori = position[0]
-vert = position[1]
 print(hori + vert)
 if position == 11:
     row1[0] = "X"
